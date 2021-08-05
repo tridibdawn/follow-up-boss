@@ -1,0 +1,23 @@
+{
+    "name": "redbuyers/follow-up-boss",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "RedBuyers",
+            "email": "admin@redbuyers.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Redbuyers\\FollowUpBoss\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Redbuyers\\FollowUpBoss\\FollowUpBossServiceProvider"
+            ]
+        }
+    }
+}
